@@ -1,0 +1,192 @@
+﻿<!doctype html>
+<html>
+<head>
+
+
+
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Josefin+Sans|Source+Sans+Pro|Spirax" rel="stylesheet">
+<link rel="icon" href="images/fav.png">
+<meta charset="utf-8">
+<title>Look Book</title>
+</head>
+<style>
+body
+{
+	margin:0px;
+	
+}
+.menu2
+{
+	background-color:rgba(238,238,238,1);
+	height:1000px;
+	width:15%;
+	float:left;
+	position:fixed;
+	
+
+	
+	
+}
+ul
+{
+	list-style-type:none;
+	
+}
+ul li
+{
+	
+	list-style-type:none;
+	font-size:20px;
+	padding:5px;
+	color: rgba(0,204,204,1);
+	margin-left:5px;
+
+	
+}
+ul li a
+{
+	text-decoration:none;
+	color:rgba(153,153,153,1);
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height:32px;
+	
+	
+}
+ul li a:hover
+{
+	color:rgba(102,102,102,1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  background: #eee;
+  user-select: none;
+ 
+}
+
+[type=radio] {
+  display: none;
+}
+
+#slider {
+  height: 68vw;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  float:right;
+  margin-right:30px;
+}
+
+#slider label {
+  margin: auto;
+  width: 60%;
+  height: 60%;
+  border-radius: 4px;
+  position: absolute;
+  left: 0; right: 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+#s1:checked ~ #slide4, #s2:checked ~ #slide5,
+#s3:checked ~ #slide1, #s4:checked ~ #slide2,
+#s5:checked ~ #slide3 {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(-30%,0,-200px);
+}
+
+#s1:checked ~ #slide5, #s2:checked ~ #slide1,
+#s3:checked ~ #slide2, #s4:checked ~ #slide3,
+#s5:checked ~ #slide4 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(-15%,0,-100px);
+}
+
+#s1:checked ~ #slide1, #s2:checked ~ #slide2,
+#s3:checked ~ #slide3, #s4:checked ~ #slide4,
+#s5:checked ~ #slide5 {
+  box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+  transform: translate3d(0,0,0);
+}
+
+#s1:checked ~ #slide2, #s2:checked ~ #slide3,
+#s3:checked ~ #slide4, #s4:checked ~ #slide5,
+#s5:checked ~ #slide1 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(15%,0,-100px);
+}
+
+#s1:checked ~ #slide3, #s2:checked ~ #slide4,
+#s3:checked ~ #slide5, #s4:checked ~ #slide1,
+#s5:checked ~ #slide2 {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(30%,0,-200px);
+}
+
+#slide1 {background-image:url(images/lookbook/2.jpg); }
+#slide2 {background-image:url(images/lookbook/4.jpg);}
+#slide3 {background-image:url(images/lookbook/17.jpg);}
+#slide4 {background-image:url(images/lookbook/22.jpg);}
+#slide5 {background-image:url(images/lookbook/32.jpg);}
+
+
+h6
+{
+	color:grey;
+	font-family:TimesLTStd-Roman;
+	padding-left:20px;
+	line-height:28px;
+}
+
+</style>
+<body>
+
+<div class="menu2">
+
+<div class="madam">
+<center><a href="index.html"><img src="images/Madam's Boutique.png" height="120px"><a/>
+</center>
+</div>
+
+<ul>
+<li><a href="index.html"> Home</a></li>
+<li><a href="khaadi.html">Khaadi</a></li>
+<li><a href="gulahmed.html">GulAhmed</a></li>
+<li><a href="al karam.html">Al Karam</a></li>
+<li><a href="bonanza.html">Bonanza</a></li>
+<li><a href="bridals.html">Bridals</a></li>
+<li><a href="lookbook.html">Look Book</a></li>
+<li><a href="compare.html">Compare</a></li>
+<li><a href="aboutus.html">About Us</a></li>
+<li><a href="contact us.html">Contact Us</a></li>
+</ul>
+<a href="https://www.facebook.com/" target="_blank"><img src="images/icon1.png" height="20px;" style="padding-left:40px; padding-top:170px; "></a>
+<a href="https://www.instagram.com/" target="_blank"><img src="images/icon2.png" height="20px;"></a>
+<a href="https://www.twitter.com/" target="_blank"><img src="images/icon3.png" height="20px;"></a>
+<h6>SP20-BSCS-0084@maju.edu.pk</h6>
+<h6>SP20-BSCS-0051@maju.edu.pk</h6>
+</div>
+<section id="slider" style="width:70%;">
+  <input type="radio" name="slider" id="s1">
+  <input type="radio" name="slider" id="s2">
+  <input type="radio" name="slider" id="s3" checked>
+  <input type="radio" name="slider" id="s4">
+  <input type="radio" name="slider" id="s5">
+  <label for="s1" id="slide1"></label>
+  <label for="s2" id="slide2"></label>
+  <label for="s3" id="slide3"></label>
+  <label for="s4" id="slide4"></label>
+  <label for="s5" id="slide5"></label>
+</section>
+
+</div>
+
+
+</body>
+</html>

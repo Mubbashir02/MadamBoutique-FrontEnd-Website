@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0px auto;
+}
+.menu2
+{
+	background-color:rgba(238,238,238,1);
+	height:auto;
+	width:15%;
+	float:left;
+	position:fixed;
+
+	
+	
+}
+ul
+{
+	list-style-type:none;
+	
+}
+ul li
+{
+	
+	list-style-type:none;
+	font-size:20px;
+	padding:5px;
+	color: rgba(0,204,204,1);
+
+	
+}
+ul li a
+{
+	text-decoration:none;
+	color:rgba(153,153,153,1);
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height:32px;
+	
+	
+}
+ul li a:hover
+{
+	color:rgba(102,102,102,1);
+}
+
+
+#section
+{	
+	width:86%;
+	float:right;
+}
+#box1
+{
+	background-color:white;
+	height:100px;
+	width:100%;
+	border-bottom:1px solid rgba(204,204,204,1);
+
+}
+
+
+.heading
+{
+	color:black;
+	padding-top:30px;
+	margin-top:0px;
+	margin-left:450px;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+.prices
+{
+	float:left;
+	margin: 43px 19px 61px 21px;
+	transition:ease-in-out all 1s;
+}
+
+.prices:hover
+{
+	transform:scale(1.1,1.1);
+}
+
+
+.product
+{
+    height: 78px;
+    width: 226px;
+    margin-left: -247px;
+    margin-top:386px;
+	float:left;
+	border:1px solid rgba(204,204,204,1);
+}
+
+.cost
+{
+	text-align: center;
+	font-family: inherit;
+    margin: 13px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.heading
+{
+font-family: 'Dancing Script', cursive;
+font-size:40px;
+line-height:46px;
+letter-spacing:3px;
+
+}
+
+.menu2 ul {
+    margin-left: -25px;
+}
+
+h6
+{
+	color:grey;
+	font-family:TimesLTStd-Roman;
+	padding-left:20px;
+	line-height:1px;
+}

@@ -1,0 +1,130 @@
+
+body
+{
+	margin:0px;
+}
+.menu2
+{
+	background-color:rgba(238,238,238,1);
+	height:1000px;
+	width:15%;
+	float:left;
+	position:fixed;
+
+	
+	
+}
+ul
+{
+	list-style-type:none;
+	
+}
+ul li
+{
+	
+	list-style-type:none;
+	font-size:20px;
+	padding:5px;
+	color: rgba(0,204,204,1);
+	margin-left:-25px;	
+}
+ul li a
+{
+	text-decoration:none;
+	color:rgba(153,153,153,1);
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height:32px;
+	
+	
+}
+ul li a:hover
+{
+	color:rgba(102,102,102,1);
+}
+
+#section
+{	
+	width:86%;
+	float:right;
+}
+#box1
+{
+	background-color:white;
+	height:100px;
+	width:100%;
+	border-bottom:1px solid rgba(204,204,204,1);
+	
+}
+
+.heading
+{
+	color:black;
+	padding-top:30px;
+	margin-top:0px;
+	margin-left:450px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.heading
+{
+  font-family: 'Dancing Script', cursive;
+  font-size:40px;
+  line-height:46px;
+  letter-spacing:3px;
+}
+.ab
+{
+	height:800px;
+	float:left;
+	width:97%;
+	margin:10px;
+	margin-left:25px;
+
+	background-size:cover;
+}
+.in
+{
+	margin:0px;
+	color:rgba(255,255,255,1);
+	padding-top:100px;
+	font-family: 'Dancing Script', cursive;
+	font-size:50px;
+}
+.lab
+{
+	margin:5px;
+	height:50px;
+	width:33%;
+	color:rgba(0,0,0,1);
+	margin-top:30px;
+	padding-left:20px;
+	background-color:rgba(204,204,204,0.9);
+	border:solid rgba(255,255,255,1) 1px;
+	border-radius:3px;
+	
+}
+.lab1
+{
+	margin:0px;
+	height:50px;
+	background-color:rgba(255,255,255,1);
+	width:10%;
+	color:black;
+	border:none;
+	margin-top:30px;
+	transition:ease-in-out all 0.4s;
+	border-radius:3px;
+}
+.lab1:hover
+{
+	background-color:rgba(255,0,0,0.7);
+	color:black;
+}
+h6
+{
+	color:grey;
+	font-family:TimesLTStd-Roman;
+	padding-left:20px;
+	line-height:1px;
+}
+
+	

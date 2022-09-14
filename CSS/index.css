@@ -1,0 +1,113 @@
+body
+{
+	margin:0px;
+}
+
+.left
+{
+	float:left;
+	width:15%;
+	height:100vh;
+	position:fixed;
+	background-color:#f0eeee;
+	
+}
+
+.right
+{
+	float:right;
+	width:85%;
+	height:1200px;
+	background-color:white;
+}
+
+
+.left img
+{
+	margin-top:20px;
+	margin-left: 10px;
+}
+
+.topbar
+{
+	background-color:rgba(255, 255, 255, 0.6);
+	height:40px;
+}
+
+.bannertext
+{
+	width:310px;
+	background-color:rgba(255,255,255,0.6);
+	margin:0px auto;
+	padding:20px 0;
+	margin-top:150px;
+}
+
+.home
+{
+	float:left;
+	height:500px;
+	width:45%;
+	background-size:cover;
+	margin-left: 30px;
+    margin-top: 50px;
+	outline-offset: -40px;
+    outline: 15px double;
+		transition:all 0.8s ease-in-out;
+
+}
+
+.home:hover
+{
+	transform:scale(1.03,1.03);
+	box-shadow:0 10px 10px #333333;
+}
+
+
+
+
+.bannertext h2
+{	
+	font-size: 35px;
+    line-height: 41px;
+    font-family: 'Dancing Script', cursive;
+	
+}
+
+.home h2 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 160px;
+}
+
+
+h6
+{
+    color: grey;
+    font-family: TimesLTStd-Roman;
+    padding-left: 20px;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+
+}
+#signin
+{
+	margin:0px;
+	height:50px;
+	width:10%;
+	color:black;
+	border:none;
+	margin-top:30px;
+	transition:ease-in-out all 0.4s;
+	border-radius:3px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#signin:hover
+{
+	background-color:rgba(255,0,0,0.7);
+	color:black;
+	padding: 10PX;
+}
